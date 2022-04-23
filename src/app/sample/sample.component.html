@@ -1,0 +1,23 @@
+<p>sample works!</p>
+
+<!-- interpolation -->
+<h2>welcome {{name}} </h2>
+<h2>{{greetUser()}}</h2>
+
+<input [id] = "propId" type="text" value= "lokesh">
+
+<!-- property binding -->
+<input [id] = "propId" [disabled] = "disabledValue" type="text" value= "kotkar">
+
+<!-- event binding  -->
+<button (click) = "onClick($event)">Greet</button>
+{{click}}
+
+<!-- template reference variable -->
+<input type="text" #myInput>
+<button (click)="templateReference(myInput.value)"> TemplateReference </button>
+
+<!-- 2 way data binding -->
+<input type = "text" [(ngModel)] = twoWayDataBinding>
+{{twoWayDataBinding}}
+
