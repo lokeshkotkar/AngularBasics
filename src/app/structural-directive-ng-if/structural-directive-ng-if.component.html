@@ -1,0 +1,21 @@
+<p>structural-directive-ng-if works!</p>
+
+<h2 *ngIf="ifCondition">If condition works </h2>
+
+<!-- inside if else condition is written  -->
+<h2 *ngIf="ifCondition" else = "elseCondition" >If condition works here</h2>
+
+<ng-template #elseCondition>
+<h2> inside else condition </h2>
+</ng-template>
+
+<!-- seperate if and else condition -->
+<div *ngIf = "ifCondition; then thenBlock; else  elseBlock"></div>
+
+<ng-template #thenBlock>
+<h3>if condition</h3>
+</ng-template>
+
+<ng-template #elseBlock>
+<h3>else condition</h3>
+</ng-template>
