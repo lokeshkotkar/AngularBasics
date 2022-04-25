@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Test';
+  
+  // component interaction variables 
+  public componentInteraction = "text from parent"
+  public messageFromClild : any;
 }

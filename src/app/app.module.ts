@@ -8,7 +8,9 @@ import {FormsModule} from '@angular/forms';
 
 import { StructuralDirectiveNgIfComponent } from './structural-directive-ng-if/structural-directive-ng-if.component';
 import { StructuralDirectiveNgSwitchComponent } from './structural-directive-ng-switch/structural-directive-ng-switch.component';
-import { StructuralDirectiveNgForComponent } from './structural-directive-ng-for/structural-directive-ng-for.component'
+import { StructuralDirectiveNgForComponent } from './structural-directive-ng-for/structural-directive-ng-for.component';
+import { ComponentInteractionComponent } from './component-interaction/component-interaction.component';
+import { PipesComponent } from './pipes/pipes.component'
 
 @NgModule({
 
@@ -18,7 +20,9 @@ import { StructuralDirectiveNgForComponent } from './structural-directive-ng-for
     SampleComponent,
    StructuralDirectiveNgIfComponent,
    StructuralDirectiveNgSwitchComponent,
-   StructuralDirectiveNgForComponent
+   StructuralDirectiveNgForComponent,
+   ComponentInteractionComponent,
+   PipesComponent
   ],
 
   // declaration of modules in import section
